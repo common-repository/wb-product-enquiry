@@ -1,0 +1,23 @@
+#wb-enquiry-button {
+    display: block;
+    width: fit-content;
+}
+#wb_enquiry_response .dashicons{
+	margin-top:4px;
+}
+#wb_enquiry_response{
+	background: #fff;
+	text-align: center;
+    padding: .5em 1em;
+    border-radius: 5px;
+    font-weight: 900;
+}
+.wb_product_enquiry_success {
+    color: green;
+    border: 2px solid green;
+}
+
+.wb_product_enquiry_error{
+    color: red;
+    border: 2px solid red;
+}

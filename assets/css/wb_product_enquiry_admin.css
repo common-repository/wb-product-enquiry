@@ -1,0 +1,39 @@
+.wbEnquiriesChart{
+    display: inline-block;
+    align-items: flex-end;
+}
+.wbEnquiriesChartCanvas{
+    display: flex;
+    align-items: flex-end;
+	
+	  height:500px;
+	  padding-top:50px;
+}
+.wbEnquiriesSidebar {
+    width: 15%;
+    display: inline-block;
+}
+.wbEnquiriesSingleDay{
+    margin: 1em .5em;
+    background: #b4e7ff;
+    padding: 0px 3px 3px 3px;
+    color: #fff;
+      font-size: .9em;
+	      position: relative;
+    min-width: 70px;
+	transition: all .2s ease-in-out;
+}
+.wbEnquiriesStats {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    line-height: 2;
+}
+.wbEnquiriesStats span{
+font-weight:900;
+}
+.wbEnquiriesSingleDay:hover {
+    background: #036898;
+}
